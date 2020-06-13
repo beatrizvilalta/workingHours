@@ -7,19 +7,19 @@
 //
 
 #include <stdio.h>
-double calcularSalario(int totalHoras);
+double calculateSalary(int totalHours);
 
 int main() {
     
-    int totalHoras;
-    double salario;
+    int totalHours;
+    double salary;
     
-    printf("Digite a quantidade de horas: ");
-    scanf("%d", &totalHoras);
+    printf("Type the number of hours worked in a month: ");
+    scanf("%d", &totalHours);
     
-    salario = calcularSalario(totalHoras);
+    salary = calculateSalary(totalHours);
    
-    printf("Salário = %.2lf reais\n", salario);
+    printf("Salary = %.2lf \n", salary);
     
     return 0;
 }

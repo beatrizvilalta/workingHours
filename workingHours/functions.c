@@ -8,18 +8,18 @@
 
 #include <stdio.h>
 
-double calcularSalario(int totalHoras) {
+double calculateSalary(int totalHours) {
   
     int extra = 0;
-    double salario;
+    double salary;
     
-    if (totalHoras > 50) {
-        extra = (totalHoras - 50) * 20;
+    if (totalHours > 50) {
+        extra = (totalHours - 50) * 20;
        }
        
-    salario = (totalHoras * 10) + extra;
+    salary = (totalHours * 10) + extra;
     
-    return salario;
+    return salary;
 }
 
 
